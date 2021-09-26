@@ -1,14 +1,20 @@
 import React, { useEffect, useState } from "react";
+import Cart from "../Cart/Cart";
 import SuperHeroCart from "../SuperHeroCart/SuperHeroCart";
-import './SuperHero.css';
+import "./SuperHero.css";
 
 const SuperHero = () => {
 	const [superHeros, setSuperHeros] = useState([]);
+	const [cart, setCart] = useState([]);
 	useEffect(() => {
 		fetch(`./superhero.JSON`)
 			.then(res => res.json())
 			.then(data => setSuperHeros(data));
 	}, []);
+	const handleAddToCart = superHero => {
+		const newCart = [...cart, superHero];
+		setCart(newCart);
+	};
 	return (
 		<div className="container">
 			<div className="row">
@@ -18,15 +24,14 @@ const SuperHero = () => {
 							<SuperHeroCart
 								key={superHero.key}
 								superHero={superHero}
+								handleAddToCart={handleAddToCart}
 							></SuperHeroCart>
 						))}
 					</div>
 				</div>
 				<div className="col-lg-3 my-5 px-3 py-5 bg-cart text-center h-50">
-                    <h2>Total Added: </h2>
-					<h6 className="mt-4">Total Cost: </h6>
-					<button className="mt-4 btn btn-outline-info">Buy now</button>
-                </div>
+					<Cart cart={cart}></Cart>
+				</div>
 			</div>
 		</div>
 	);

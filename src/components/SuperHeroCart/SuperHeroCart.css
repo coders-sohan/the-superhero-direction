@@ -31,7 +31,7 @@
 .btn-bg:hover {
 	color: #ffffff;
 	background-image: linear-gradient(-120deg, #3867d6, #8000ff);
-	transform: translateY(-5px);
+	transform: translateY(-3px);
 }
 
 .social-bg {

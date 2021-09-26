@@ -1,10 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import {
+	faFacebook,
+	faTwitter,
+	faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 import "./SuperHeroCart.css";
 
 const SuperHeroCart = props => {
+	// console.log(props);
 	const cartIcon = <FontAwesomeIcon icon={faShoppingCart} />;
 	const facebookIcon = <FontAwesomeIcon icon={faFacebook} />;
 	const twitterIcon = <FontAwesomeIcon icon={faTwitter} />;
@@ -32,14 +37,23 @@ const SuperHeroCart = props => {
 					</h5>
 				</div>
 				<div className="card-footer pb-3 text-center">
-					<button className="btn btn-bg">
+					<button
+						className="btn btn-bg"
+						onClick={() => props.handleAddToCart(props.superHero)}
+					>
 						Add to cart <span style={{ marginLeft: "3px" }}>{cartIcon}</span>
 					</button>
-					<div className="py-2 mt-3 social-bg bg-secondary rounded">
-						<a className="mx-3 social-icon" href="https://facebook.com">{facebookIcon}</a>
-						<a className="mx-3 social-icon" href="https://twitter.com">{twitterIcon}</a>
-						<a className="mx-3 social-icon" href="https://instagram.com">{instagramIcon}</a>
-					</div>
+				</div>
+				<div className="py-2 mt-3 social-bg text-center bg-secondary rounded-bottom">
+					<a className="mx-3 social-icon" href="https://facebook.com">
+						{facebookIcon}
+					</a>
+					<a className="mx-3 social-icon" href="https://twitter.com">
+						{twitterIcon}
+					</a>
+					<a className="mx-3 social-icon" href="https://instagram.com">
+						{instagramIcon}
+					</a>
 				</div>
 			</div>
 		</div>
