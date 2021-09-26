@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SuperHeroCart from "../SuperHeroCart/SuperHeroCart";
+import './SuperHero.css';
 
 const SuperHero = () => {
 	const [superHeros, setSuperHeros] = useState([]);
@@ -21,8 +22,10 @@ const SuperHero = () => {
 						))}
 					</div>
 				</div>
-				<div className="col-lg-3 my-5 p-5 bg-info h-50">
-                    <h1>cart</h1>
+				<div className="col-lg-3 my-5 px-3 py-5 bg-cart text-center h-50">
+                    <h2>Total Added: </h2>
+					<h6 className="mt-4">Total Cost: </h6>
+					<button className="mt-4 btn btn-outline-info">Buy now</button>
                 </div>
 			</div>
 		</div>

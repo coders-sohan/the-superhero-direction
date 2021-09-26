@@ -12,7 +12,7 @@ const SuperHeroCart = props => {
 					<h5 className="card-title fw-normal">Role: {role}</h5>
 					<h5 className="card-title fw-normal">Age: {age}</h5>
 					<h5 className="card-title fw-normal">Country: {country}</h5>
-					<h5 className="card-title fw-normal">Salary: {salary}</h5>
+					<h5 className="card-title fw-normal">Salary: ${salary}</h5>
 				</div>
 				<div className="card-footer text-center">
 					<button className="btn btn-bg">Add to cart</button>
