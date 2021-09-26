@@ -12,7 +12,7 @@ const Header = () => {
 					for world.
 				</p>
 				<p className="display-5 m-0 fw-bold">
-					Total Budget: <b>70 Million</b>
+					Total Budget: <b>100 Million</b>
 				</p>
 			</div>
 		</div>
