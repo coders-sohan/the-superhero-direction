@@ -4,7 +4,7 @@ The Super Hero Direction project was bootstrapped with React JS.
 
 ## Live Website link
 
-Click the given link to have a look at this website [https://the-superhero-direction-justice-leagues.netlify.app/](https://the-superhero-direction-justice-leagues.netlify.app/)
+Click the given link to have a look at this website [https://the-superhero-direction-justice-leagues.netlify.app](https://the-superhero-direction-justice-leagues.netlify.app)
 
 ### `Three important thing about this projects`
 
