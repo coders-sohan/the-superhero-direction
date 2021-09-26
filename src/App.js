@@ -2,13 +2,13 @@
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-import SuperHero from "./components/SuperHeros/SuperHero";
+import Actors from "./components/Actors/Actors";
 
 function App() {
 	return (
 		<div>
 			<Header></Header>
-			<SuperHero></SuperHero>
+			<Actors></Actors>
 			<Footer></Footer>
 		</div>
 	);

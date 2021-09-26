@@ -1,24 +1,24 @@
 import React, { useEffect, useState } from "react";
 import Cart from "../Cart/Cart";
-import SuperHeroCart from "../SuperHeroCart/SuperHeroCart";
-import "./SuperHero.css";
+import ActorsCart from "../ActorsCart/ActorsCart";
+import "./Actors.css";
 
-const SuperHero = () => {
-	const [superHeros, setSuperHeros] = useState([]);
+const Actors = () => {
+	const [actor, setActor] = useState([]);
 	const [cart, setCart] = useState([]);
 	// call JSON file
 	useEffect(() => {
-		fetch(`./superhero.JSON`)
+		fetch(`./fastandfurious.JSON`)
 			.then(res => res.json())
-			.then(data => setSuperHeros(data));
+			.then(data => setActor(data));
 	}, []);
-	const handleAddToCart = superHero => {
+	const handleAddToCart = actor => {
 		const newCart = [...cart];
 		// set condition for prevent duplicate
-		if (newCart.includes(superHero)) {
+		if (newCart.includes(actor)) {
 			alert("This person is already added");
 		} else {
-			setCart([...cart, superHero]);
+			setCart([...cart, actor]);
 		}
 	};
 	return (
@@ -27,12 +27,12 @@ const SuperHero = () => {
 				<div className="col-lg-9 my-5">
 					<div className="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
 						{/* looping and sending data to cart to display */}
-						{superHeros.map(superHero => (
-							<SuperHeroCart
-								key={superHero.key}
-								superHero={superHero}
+						{actor.map(actor => (
+							<ActorsCart
+								key={actor.key}
+								actor={actor}
 								handleAddToCart={handleAddToCart}
-							></SuperHeroCart>
+							></ActorsCart>
 						))}
 					</div>
 				</div>
@@ -44,4 +44,4 @@ const SuperHero = () => {
 	);
 };
 
-export default SuperHero;
+export default Actors;

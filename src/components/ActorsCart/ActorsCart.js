@@ -6,16 +6,16 @@ import {
 	faTwitter,
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import "./SuperHeroCart.css";
+import "./ActorsCart.css";
 
-const SuperHeroCart = props => {
+const ActorsCart = props => {
 	// fontawesome icons
 	const cartIcon = <FontAwesomeIcon icon={faShoppingCart} />;
 	const facebookIcon = <FontAwesomeIcon icon={faFacebook} />;
 	const twitterIcon = <FontAwesomeIcon icon={faTwitter} />;
 	const instagramIcon = <FontAwesomeIcon icon={faInstagram} />;
 	// destructuring
-	const { name, role, age, country, salary, img } = props.superHero;
+	const { name, role, age, country, salary, img } = props.actor;
 	return (
 		<div className="col">
 			<div className="card h-100">
@@ -40,7 +40,7 @@ const SuperHeroCart = props => {
 				<div className="card-footer pb-3 text-center">
 					<button
 						className="btn btn-bg"
-						onClick={() => props.handleAddToCart(props.superHero)}
+						onClick={() => props.handleAddToCart(props.actor)}
 					>
 						Add to cart <span style={{ marginLeft: "3px" }}>{cartIcon}</span>
 					</button>
@@ -61,4 +61,4 @@ const SuperHeroCart = props => {
 	);
 };
 
-export default SuperHeroCart;
+export default ActorsCart;

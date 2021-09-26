@@ -1,0 +1,110 @@
+[
+	{
+		"key": "d01",
+		"name": "Justin Lin",
+		"role": "Director",
+		"age": 49,
+		"country": "Taiwan",
+		"salary": 6000000,
+		"img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/w0ryazdt8iS3GBrjXfv0FIwvUGY.jpg"
+	},
+	{
+		"key": "d02",
+		"name": "Chris Morgan",
+		"role": "Screen Writer",
+		"age": 54,
+		"country": "USA",
+		"salary": 400000,
+		"img": "https://images.moviefit.me/p/o/101089-chris-morgan.jpg"
+	},
+	{
+		"key": "d03",
+		"name": "Brian Tyler",
+		"role": "Music Director",
+		"age": 49,
+		"country": "USA",
+		"salary": 1000000,
+		"img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wLPLAOcEgA9vfNuXSX1QI1ajguU.jpg"
+	},
+	{
+		"key": "sh01",
+		"name": "Vin Diesel",
+		"role": "Actor",
+		"age": 54,
+		"country": "USA",
+		"salary": 15000000,
+		"img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9uxTwqB8anAiPomB6Kqm6A73VTV.jpg"
+	},
+	{
+		"key": "sh02",
+		"name": "Michelle Rodriguez",
+		"role": "Actor",
+		"age": 43,
+		"country": "USA",
+		"salary": 4000000,
+		"img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hulQAiXNFLq4VDYVxBPgK009njf.jpg"
+	},
+	{
+		"key": "sh03",
+		"name": "Tyrese Gibson",
+		"role": "Actor",
+		"age": 42,
+		"country": "USA",
+		"salary": 3000000,
+		"img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jxoy4fbXNKFQtBdK73cLXEz3ufS.jpg"
+	},
+	{
+		"key": "sh04",
+		"name": "Ludacris",
+		"role": "Actor",
+		"age": 44,
+		"country": "USA",
+		"salary": 1500000,
+		"img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rgB2eIOt7WyQjdgJCOuESdDlrjg.jpg"
+	},
+	{
+		"key": "sh05",
+		"name": "John Cena",
+		"role": "Actor",
+		"age": 44,
+		"country": "USA",
+		"salary": 300000,
+		"img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6wmTpbYpmhthaxzM5ss3377F9IV.jpg"
+	},
+	{
+		"key": "sh06",
+		"name": "Nathalie Emmanuel",
+		"role": "Actor",
+		"age": 32,
+		"country": "USA",
+		"salary": 500000,
+		"img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bZT5ETfTk30w4XeXOyN8a0FrPPx.jpg"
+	},
+	{
+		"key": "sh07",
+		"name": "Jordana Brewster",
+		"role": "Actor",
+		"age": 41,
+		"country": "USA",
+		"salary": 1200000,
+		"img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8VzFsSfT7NnMGyH5JQBQdTxDHcO.jpg"
+	},
+	{
+		"key": "np01",
+		"name": "Sung Kang",
+		"role": "Actor",
+		"age": 49,
+		"country": "USA",
+		"salary": 6000000,
+		"img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wfuUkOZWuhkgfaA0Y3uMlQx0PXe.jpg"
+	},
+	{
+		"key": "np02",
+		"name": "Michael Rooker",
+		"role": "Actor",
+		"age": 66,
+		"country": "USA",
+		"salary": 4000000,
+		"img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dq3xFKDWJsQjPffm1bmB3TbMilq.jpg"
+	}
+]
