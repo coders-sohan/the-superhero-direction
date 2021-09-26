@@ -9,11 +9,12 @@ import {
 import "./SuperHeroCart.css";
 
 const SuperHeroCart = props => {
-	// console.log(props);
+	// fontawesome icons
 	const cartIcon = <FontAwesomeIcon icon={faShoppingCart} />;
 	const facebookIcon = <FontAwesomeIcon icon={faFacebook} />;
 	const twitterIcon = <FontAwesomeIcon icon={faTwitter} />;
 	const instagramIcon = <FontAwesomeIcon icon={faInstagram} />;
+	// destructuring
 	const { name, role, age, country, salary, img } = props.superHero;
 	return (
 		<div className="col">

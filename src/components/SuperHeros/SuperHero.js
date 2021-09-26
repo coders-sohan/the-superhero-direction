@@ -6,6 +6,7 @@ import "./SuperHero.css";
 const SuperHero = () => {
 	const [superHeros, setSuperHeros] = useState([]);
 	const [cart, setCart] = useState([]);
+	// call JSON file
 	useEffect(() => {
 		fetch(`./superhero.JSON`)
 			.then(res => res.json())
@@ -13,6 +14,7 @@ const SuperHero = () => {
 	}, []);
 	const handleAddToCart = superHero => {
 		const newCart = [...cart];
+		// set condition for prevent duplicate
 		if (newCart.includes(superHero)) {
 			alert("This person is already added");
 		} else {
@@ -24,6 +26,7 @@ const SuperHero = () => {
 			<div className="row">
 				<div className="col-lg-9 my-5">
 					<div className="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
+						{/* looping and sending data to cart to display */}
 						{superHeros.map(superHero => (
 							<SuperHeroCart
 								key={superHero.key}

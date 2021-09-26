@@ -12,6 +12,7 @@ const Cart = props => {
 			<h2>Total Added: {props.cart.length}</h2>
 			<h6 className="mt-4">Total Cost: {total}</h6>
 			<div className="my-4">
+				{/* add data to card */}
 				{cart.map(person => (
 					<ShowName key={person.key} person={person}></ShowName>
 				))}
@@ -20,6 +21,8 @@ const Cart = props => {
 		</div>
 	);
 };
+
+// show data in card
 
 const ShowName = props => {
 	return (
