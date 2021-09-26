@@ -34,9 +34,9 @@ const ShowName = props => {
 				</div>
 				<div className="col-md-8">
 					<div className="card-body">
-						<p className="card-title">
-							<span className="fw-bold">Name:</span> {props.person.name}
-						</p>
+						<h6 className="card-title d-flex justify-content-between">
+							<span>Name:</span> <span>{props.person.name}</span>
+						</h6>
 					</div>
 				</div>
 			</div>

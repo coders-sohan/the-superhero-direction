@@ -20,20 +20,20 @@ const SuperHeroCart = props => {
 			<div className="card h-100">
 				<img src={img} className="card-img rounded-circle" alt={name} />
 				<div className="card-body text-center">
-					<h5 className="card-title fw-normal py-2 m-0">
-						<span className="fw-bold">Name:</span> {name}
+					<h2 className="card-title fw-normal text-center py-4 m-0">
+						<span className="fw-bold">{name}</span>
+					</h2>
+					<h5 className="card-title fw-normal py-2 m-0 d-flex justify-content-between">
+						<span className="fw-bold">Role:</span> <span>{role}</span>
 					</h5>
-					<h5 className="card-title fw-normal py-2 m-0">
-						<span className="fw-bold">Role:</span> {role}
+					<h5 className="card-title fw-normal py-2 m-0 d-flex justify-content-between">
+						<span className="fw-bold">Age:</span> <span>{age}</span>
 					</h5>
-					<h5 className="card-title fw-normal py-2 m-0">
-						<span className="fw-bold">Age:</span> {age}
+					<h5 className="card-title fw-normal py-2 m-0 d-flex justify-content-between">
+						<span className="fw-bold">Country:</span> <span>{country}</span>
 					</h5>
-					<h5 className="card-title fw-normal py-2 m-0">
-						<span className="fw-bold">Country:</span> {country}
-					</h5>
-					<h5 className="card-title fw-normal py-2 m-0">
-						<span className="fw-bold">Salary:</span> ${salary}
+					<h5 className="card-title fw-normal py-2 m-0 d-flex justify-content-between">
+						<span className="fw-bold">Salary:</span> <span>${salary}</span>
 					</h5>
 				</div>
 				<div className="card-footer pb-3 text-center">
