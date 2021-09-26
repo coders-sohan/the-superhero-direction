@@ -1,35 +1,49 @@
-.card-img{
-    height: 180px;
-    width: 190px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 15px;
+.card-img {
+	height: 180px;
+	width: 190px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
 }
 
-.card{
-    transition: all .3s ease-in-out;
+.card {
+	transition: all 0.3s ease-in-out;
 }
 
-.card:hover{
-    border: 1px solid rgba(56, 103, 214, 0.7);
-    box-shadow: 0 0 15px rgba(128, 0, 255, 0.3);
+.card:hover {
+	border: 1px solid rgba(56, 103, 214, 0.7);
+	box-shadow: 0 0 15px rgba(128, 0, 255, 0.3);
 }
 
-.card-footer{
-    background-color: transparent;
-    border: none;
+.card-footer {
+	background-color: transparent;
+	border: none;
 }
 
 .btn-bg {
-    color: #ffffff;
+	color: #ffffff;
 	background-image: linear-gradient(60deg, #3867d6, #8000ff);
-    outline: none;
-    border: none;
-    transition: all .3s ease;
+	outline: none;
+	border: none;
+	transition: all 0.3s ease;
 }
 
-.btn-bg:hover{
-    color: #ffffff;
+.btn-bg:hover {
+	color: #ffffff;
 	background-image: linear-gradient(-120deg, #3867d6, #8000ff);
-    transform: translateY(-5px);
+	transform: translateY(-5px);
+}
+
+.social-bg {
+	background-image: linear-gradient(60deg, #3867d6, #8000ff);
+}
+
+.social-icon {
+	font-size: 20px;
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+}
+
+.social-icon:hover {
+	color: lightgray;
 }
