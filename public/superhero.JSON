@@ -88,5 +88,23 @@
 		"country": "USA",
 		"salary": 1200000,
 		"img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yYhwWRcxDHTn63gSEF1vnDAD7cD.jpg"
+	},
+	{
+		"key": "np01",
+		"name": "Amy Adams",
+		"role": "Actor",
+		"age": 47,
+		"country": "Italy",
+		"salary": 6000000,
+		"img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1h2r2VTpoFb5QefAaBYYQgQzL9z.jpg"
+	},
+	{
+		"key": "np02",
+		"name": "Diane Lane",
+		"role": "Actor",
+		"age": 56,
+		"country": "USA",
+		"salary": 4000000,
+		"img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tUPAKAtstqeQrAKhkQge9jV7Owz.jpg"
 	}
 ]
