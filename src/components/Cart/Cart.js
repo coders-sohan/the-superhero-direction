@@ -1,7 +1,6 @@
 import React from "react";
 
 const Cart = props => {
-	console.log(props);
 	const { cart } = props;
 	let total = 0;
 	for (const superHero of cart) {
@@ -22,7 +21,6 @@ const Cart = props => {
 };
 
 const ShowName = props => {
-	console.log(props);
 	return(
 		<div className="card">
 			<p className="text-black">"<span className="fw-bold">Name:</span> {props.person.name}"</p>
