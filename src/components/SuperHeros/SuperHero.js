@@ -12,8 +12,12 @@ const SuperHero = () => {
 			.then(data => setSuperHeros(data));
 	}, []);
 	const handleAddToCart = superHero => {
-		const newCart = [...cart, superHero];
-		setCart(newCart);
+		const newCart = [...cart];
+		if(newCart.includes(superHero)){
+			alert('This person is already added')
+		} else {
+			setCart([...cart, superHero]);
+		}
 	};
 	return (
 		<div className="container">
