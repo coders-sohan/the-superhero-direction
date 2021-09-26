@@ -1,4 +1,4 @@
-# The Super Hero Direction | Justice Leagues Team with react js
+# The Super Hero Direction | Fast And Furious with react js
 
 The Super Hero Direction project was bootstrapped with React JS.
 
