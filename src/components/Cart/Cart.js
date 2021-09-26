@@ -1,5 +1,5 @@
 import React from "react";
-import './Cart.css';
+import "./Cart.css";
 
 const Cart = props => {
 	const { cart } = props;
@@ -26,11 +26,17 @@ const ShowName = props => {
 		<div className="card cart-card mb-3">
 			<div className="row align-items-center g-0">
 				<div className="col-md-4 text-right">
-					<img src={props.person.img} className="img-fluid rounded-start" alt="..." />
+					<img
+						src={props.person.img}
+						className="img-fluid rounded-start"
+						alt={props.person.name}
+					/>
 				</div>
 				<div className="col-md-8">
 					<div className="card-body">
-						<p className="card-title"><span className="fw-bold">Name:</span> {props.person.name}</p>
+						<p className="card-title">
+							<span className="fw-bold">Name:</span> {props.person.name}
+						</p>
 					</div>
 				</div>
 			</div>

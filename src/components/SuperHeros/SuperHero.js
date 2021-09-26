@@ -13,8 +13,8 @@ const SuperHero = () => {
 	}, []);
 	const handleAddToCart = superHero => {
 		const newCart = [...cart];
-		if(newCart.includes(superHero)){
-			alert('This person is already added')
+		if (newCart.includes(superHero)) {
+			alert("This person is already added");
 		} else {
 			setCart([...cart, superHero]);
 		}

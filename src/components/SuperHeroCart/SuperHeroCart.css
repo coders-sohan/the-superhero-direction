@@ -40,8 +40,8 @@
 
 .social-icon {
 	font-size: 20px;
-    color: #ffffff;
-    transition: all .3s ease-in-out;
+	color: #ffffff;
+	transition: all 0.3s ease-in-out;
 }
 
 .social-icon:hover {

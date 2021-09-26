@@ -1,6 +1,6 @@
-.header-bg{
-    background-image: linear-gradient(60deg, #3867d6, #8000ff);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+.header-bg {
+	background-image: linear-gradient(60deg, #3867d6, #8000ff);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .rounded-header {
